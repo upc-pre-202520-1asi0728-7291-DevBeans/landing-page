@@ -40,7 +40,7 @@ export function LandingHeader() {
           </nav>
 
           <div className="hidden md:flex items-center">
-            <Link href="https://google.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://bean-detect-ai-web.netlify.app/login" target="_blank" rel="noopener noreferrer">
               <Button
                 variant="outline"
                 className="border-2 border-[#1DD1A1] text-[#1DD1A1] hover:bg-[#1DD1A1] hover:text-white rounded-full px-6 bg-transparent"
@@ -76,7 +76,7 @@ export function LandingHeader() {
                 Contact Us
               </Link>
               <div className="pt-4 border-t border-gray-200">
-                <Link href="https://google.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://bean-detect-ai-web.netlify.app/login" target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="outline"
                     className="w-full border-2 border-[#1DD1A1] text-[#1DD1A1] hover:bg-[#1DD1A1] hover:text-white rounded-full bg-transparent"
