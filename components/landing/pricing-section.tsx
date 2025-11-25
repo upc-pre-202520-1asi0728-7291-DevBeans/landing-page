@@ -4,23 +4,23 @@ import { Check, Mail, Phone, Clock, MapPin } from "lucide-react"
 
 const plans = [
   {
-    name: "Basic",
-    price: "$10",
+    name: "Expert",
+    price: "$3.99",
     period: "per month",
     features: ["+250 images", "10 accounts", "Offline access", "Updates and new features", "24/7 Support"],
   },
   {
     name: "Premium",
-    price: "$12",
+    price: "$6.99",
     period: "per user, per month",
-    features: ["+500 images", "Offline access", "Updates and new features", "24/7 WP Support", "10 accounts"],
+    features: ["+500 images", "Offline access", "Updates and new features", "24/7 WP Support"],
     popular: true,
   },
   {
-    name: "Expert",
-    price: "$6",
+    name: "Free",
+    price: "$0.00",
     period: "per user, per month",
-    features: ["100 images", "Offline access", "Updates and new features", "24/7 WP Support"],
+    features: ["100 images", "Only core features available"],
   },
 ]
 
